@@ -29,7 +29,17 @@ button:focus-visible, a:focus-visible { outline: 3px solid #b08b57; outline-offs
 .nav { height: 86px; display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 10; }
 .brand { display: flex; gap: 13px; align-items: center; border: 0; background: none; color: var(--ink); font-weight: 600; letter-spacing: .02em; cursor: pointer; }
 .nav > .brand { font-size: 18px; font-weight: 700; }
-.brand-logo { width: 48px; height: 48px; object-fit: contain; flex: 0 0 auto; }
+.brand-logo {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  object-fit: contain;
+  flex: 0 0 auto;
+  border: 1px solid rgba(23, 55, 46, .1);
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 5px 16px rgba(23, 55, 46, .1);
+}
 .nav-links { display: flex; align-items: center; gap: 28px; }
 .nav-links button, .nav-links a, .footer button { border: 0; background: none; color: #274039; cursor: pointer; font-size: 14px; }
 .nav-links button:hover, .nav-links a:hover { color: #8f6435; }
@@ -214,7 +224,7 @@ blockquote { margin: 30px 0 0; padding-left: 22px; border-left: 2px solid #b99d7
 .stem::after { left: 0; top: 100px; transform: rotate(30deg); }
 .footer { min-height: 110px; display: flex; align-items: center; justify-content: space-between; gap: 25px; color: #65736e; font-size: 12px; }
 .footer .brand { font-size: 13px; }
-.footer .brand-logo { width: 38px; height: 38px; }
+.footer .brand-logo { width: 40px; height: 40px; padding: 4px; }
 
 @media (max-width: 900px) {
   .shell { width: min(100% - 32px, 720px); }
