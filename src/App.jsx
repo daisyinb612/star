@@ -11,7 +11,7 @@ import {
 
 function Mark() {
   return (
-    <img className="brand-logo" src="/star-logo.png" alt="" aria-hidden="true" />
+    <img className="brand-logo" src={`${import.meta.env.BASE_URL}star-logo.png`} alt="" aria-hidden="true" />
   );
 }
 
