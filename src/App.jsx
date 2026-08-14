@@ -118,12 +118,14 @@ export function App() {
           </div>
           <div className="card-flow" aria-label="教师经验生成技能训练交互卡的流程">
             <article className="source-card">
+              <span className="endpoint-label">引导员教师端</span>
               <span className="flow-label">教师现场经验</span>
               <div className="source-row"><ImageSquare /><span><strong>咖啡师训练现场</strong><small>图片 · 视频 · 口述说明</small></span></div>
               <div className="source-note">“原料用完时，先让青年停下来检查，再练习怎样向主管说明和求助。”</div>
             </article>
             <div className="flow-bridge"><Sparkle weight="fill" /><span>多模态 AI 辅助整理</span><ArrowRight /></div>
             <article className="result-card">
+              <span className="endpoint-label">星星人学生端</span>
               <span className="flow-label">技能训练交互卡</span>
               <h3>制作冰摇莓果茶</h3>
               <div className="skill-step"><span>1</span><p>确认订单与杯型</p></div>
