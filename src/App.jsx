@@ -56,7 +56,7 @@ export function App() {
               <p className="audience-badge"><Sparkle weight="fill" /> 专为孤独症青年设计</p>
               <p className="kicker">面向孤独症青年的职业转衔训练平台</p>
             </div>
-            <h1>把职业技能<br />变成可以反复练习的工作步骤</h1>
+            <h1>把职业技能<br />变成可以反复练习的互动卡片</h1>
             <p className="lead">星星启航计划借助多模态 AI，把真实教学中的示范、提示与判断沉淀为可复用的技能训练交互卡，连接孤独症青年（星青年）、引导员、机构与家长，共同支持从训练走向就业。</p>
             <div className="hero-actions">
               <a className="button primary hero-primary" href={productUrl}>
